@@ -1,0 +1,82 @@
+{
+    
+    "first-contentful-paint": {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+        "score": 0.96,
+        "scoreDisplayMode": "numeric",
+        "displayValue": "0.8 s",
+        "numericValue": 766.5,
+        "numericUnit": "millisecond",
+        "scoringOptions": {
+            "p10": 934,
+            "median": 1600
+        }
+    },
+    "largest-contentful-paint": {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+        "score": 0.81,
+        "scoreDisplayMode": "numeric",
+        "displayValue": "1.5 s",
+        "numericValue": 1470,
+        "numericUnit": "millisecond",
+        "scoringOptions": {
+            "p10": 1200,
+            "median": 2400
+        }
+    },
+    "total-blocking-time": {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+        "score": 1,
+        "scoreDisplayMode": "numeric",
+        "displayValue": "30 ms",
+        "numericValue": 34,
+        "numericUnit": "millisecond",
+        "scoringOptions": {
+            "p10": 150,
+            "median": 350
+        }
+    },
+    "cumulative-layout-shift": {
+        "id": "cumulative-layout-shift",
+        "title": "Cumulative Layout Shift",
+        "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+        "score": 1,
+        "scoreDisplayMode": "numeric",
+        "displayValue": "0.006",
+        "details": {
+            "items": [
+                {
+                    "cumulativeLayoutShiftMainFrame": 0.005951957769678662
+                }
+            ],
+            "type": "debugdata"
+        },
+        "numericValue": 0.005951957769678662,
+        "numericUnit": "unitless",
+        "scoringOptions": {
+            "p10": 0.1,
+            "median": 0.25
+        }
+    } , 
+    "speed-index": {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+        "score": 0.94,
+        "scoreDisplayMode": "numeric",
+        "displayValue": "1.2 s",
+        "numericValue": 1155.3024679044797,
+        "numericUnit": "millisecond",
+        "scoringOptions": {
+            "p10": 1311,
+            "median": 2300
+        }
+    }
+
+}

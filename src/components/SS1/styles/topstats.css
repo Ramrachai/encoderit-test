@@ -1,26 +1,24 @@
-.ss1-container{ 
-    height: max-content;
-    padding: 2rem 0;
-    
-}
 .top-stat {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    border-bottom: 1px solid  rgb(226, 226, 226);
+    gap: 3rem;
+    border-bottom: 1px solid rgb(226, 226, 226);
     width: 95%;
     margin: auto;
     padding-bottom: 1rem;
+    flex-wrap: wrap;
 }
+
 .top-stat .stat-item {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .8rem;
     flex-direction: column;
-    
+
 }
+
 .top-stat .stat-item p {
     font-size: .7rem;
     font-weight: 500;

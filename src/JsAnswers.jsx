@@ -1,6 +1,9 @@
 import React from 'react'
 import data from "../pagespeed-main/w3.json"
 
+
+
+
 const JsAnswers = () => {
 
     // answer: 1 start =====
@@ -8,6 +11,11 @@ const JsAnswers = () => {
         return ['FCP', 'LCP', 'TBT', 'CLS'].includes(item.acronym);
     });
     console.log("anwer1 ==",filtered)
+
+    const filtered2 = data.categories.performance.auditRefs.filter(item => {
+        return ['FCP', 'LCP', 'TBT', 'CLS', "SI"].includes(item.acronym);
+    });
+    console.log("filtered 2 ==",filtered2)
 
     
     // answer: 2 start  ===== 
@@ -36,7 +44,7 @@ const JsAnswers = () => {
     // answer: 6 start ===== 
     const sortedFailedAudits = failedAudits.sort((a, b) => a.score - b.score)
     console.log(" answer 6 ===", sortedFailedAudits)
-
+   
 
 
     return (
