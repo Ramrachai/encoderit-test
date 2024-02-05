@@ -1,0 +1,23 @@
+.progress-ring {
+    transform: rotate(-90deg);
+  }
+  
+  .progress-ring__circle {
+    transition: stroke-dashoffset 0.35s;
+  }
+  
+  .progress-ring__text {
+    font-size: 20px;
+    fill: #333;
+    transform-origin: center;
+    transform: rotate(90deg);
+  }
+  
+  .progress-ring__circle--progress {
+    stroke-dasharray: 0;
+    transition: stroke-dashoffset 1s;
+  }
+  
+
+ 
+  

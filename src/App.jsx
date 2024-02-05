@@ -1,14 +1,12 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
-import JsAnswers from './JsAnswers'
+import SS1 from './components/SS1/SS1'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h2 className='text-red-500'>Hello world</h2>
-      <JsAnswers />
-    </>
+    <main className='app'>
+      <SS1 />
+    </main>
   )
 }
 
