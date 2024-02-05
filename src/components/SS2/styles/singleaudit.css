@@ -1,0 +1,19 @@
+.audit-item:hover {
+    background-color: #fafafa;
+} 
+
+.audit-item__left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+.audit-item__right button{
+    padding: 4px 6px; 
+}
+
+.audit-item__right button:hover{
+    background-color: #ebebeb;
+}

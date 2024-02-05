@@ -1,0 +1,45 @@
+.audits-container {
+
+}
+
+.diagnostics-container, .passed-audit-container {
+    padding: 0 8px;
+}
+
+
+.passed-audit-container{
+    margin-top: 4rem;
+}
+
+.audits-container .header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.audits-container .btn-group{
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+}
+.audits-container .btn-group span {
+    margin-right: 8px;
+}
+
+.audits-container .audit-item {
+    border-top: 1px solid rgb(226, 226, 226);
+    padding: 8px ; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.audits-container .audit-item .audit-item__description {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    padding: 8px;
+}

@@ -3,7 +3,7 @@ import "./styles/midstats.css"
 import CircularProgressBar from '../circularProgess/CircularProgress'
 import { IoTriangle, IoSquare } from "react-icons/io5";
 import { FaCircle } from "react-icons/fa";
-import { W3Context } from './W3Context'
+import { W3Context } from '../../W3Context'
 
 
 const MidStat = () => {

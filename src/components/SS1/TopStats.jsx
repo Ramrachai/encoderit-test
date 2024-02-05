@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import "./styles/topstats.css"
 import CircularProgressBar from "../circularProgess/CircularProgress"
-import { W3Context } from './W3Context'
+import { W3Context } from '../../W3Context'
 
 const TopStats = () => {
 
