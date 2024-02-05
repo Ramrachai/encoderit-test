@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 .app{
     width: 70%; 
     /* background-color: gray; */
     margin: 0 auto;
     border: 1px solid rgb(226, 226, 226);
     border-radius: 8px;
-    padding: 1rem;
     margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }

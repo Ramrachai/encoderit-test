@@ -7,8 +7,7 @@
   }
   
   .progress-ring__text {
-    font-size: 20px;
-    fill: #333;
+    /* fill: #333; */
     transform-origin: center;
     transform: rotate(90deg);
   }
