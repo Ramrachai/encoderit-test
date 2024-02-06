@@ -2,6 +2,8 @@
 
 ## instruction repo: https://github.com/encoderit-anik/pagespeed/tree/main 
 
+
+# Live preview link: [https://encoderit-test.vercel.app/](https://encoderit-test.vercel.app/)
 ## Features: 
 - did not use any third party library for styling or functionality. 
 - used only vanilla javascript, react.js, pure css. 
@@ -11,3 +13,5 @@
 - fully responsive design. looks good on mobile and desktop.
 - used Context API to manage states and share data between components.
 - User can click on expand buttons to see more details about the audit result. 
+
+![Screenshot](screenshot_desktop.png) ![Screenshot](screenshot_mobile.png)
