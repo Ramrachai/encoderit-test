@@ -1,9 +1,10 @@
 # This a project for evaluating my skills on react.js and other front end technologies by Encoder IT. 
 
 ## instruction repo: https://github.com/encoderit-anik/pagespeed/tree/main 
-
-
 # Live preview link: [https://encoderit-test.vercel.app/](https://encoderit-test.vercel.app/)
+
+### info: Answer for JavaScript questions are in the `src/JsAnswers.jsx` file
+
 ## Features: 
 - did not use any third party library for styling or functionality. 
 - used only vanilla javascript, react.js, pure css. 
