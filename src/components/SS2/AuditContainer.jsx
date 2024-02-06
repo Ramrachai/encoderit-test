@@ -6,12 +6,7 @@ import SingleAudit from './SingleAudit';
 const Diagnostics = () => {
 
     const [passedToggle, setPassedToggle] = useState(false)
-
-
-
     const w3Context = useContext(W3Context)
-    console.log("ss2", w3Context)
-
     const filteredData = w3Context.categories.performance.auditRefs.filter(item => ['FCP', 'LCP', 'TBT', 'CLS'].includes(item.acronym))
     const audits = filteredData.map(item => item.relevantAudits)
     const uniqeAudits = [...new Set(audits.flat())]
@@ -19,8 +14,6 @@ const Diagnostics = () => {
     const passedAudits = relevantAudits.filter(item => item.score == 1)
     const failedAudits = relevantAudits.filter(item => item.score < 1 && (!item.items || item.items.length < 1))
     const sortedFailedAudits = failedAudits.sort((a, b) => b.score - a.score)
-
-    console.log("failed audits", sortedFailedAudits)
 
     return (
 
@@ -65,10 +58,7 @@ const Diagnostics = () => {
                         </div>
                     )
                 }
-
-
             </div>
-
         </div>
     )
 }

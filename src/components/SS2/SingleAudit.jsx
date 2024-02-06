@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import { HiMiniChevronDown } from "react-icons/hi2";
 import "./styles/singleaudit.css"
-// import { parseText } from '../SS1/BottomStats';
-import {getColor, getIcon , parseText} from "../../utils/utils"
-
+import { getColor, getIcon, parseText } from "../../utils/utils"
 
 const SingleAudit = ({ item }) => {
 
@@ -13,8 +11,10 @@ const SingleAudit = ({ item }) => {
         <div className="audit-item" >
             <div className="audit-item__left">
                 {getIcon(item.score)}
-                <span className="audit-item__left__title">{item.title}</span>
-                <span className="audit-item__left__score" style={{color: `${getColor(item.score)}`}}> - {item.displayValue}</span>
+                <p>
+                    <span className="audit-item__left__title">{item.title}</span>
+                    <span className="audit-item__left__score" style={{ color: `${getColor(item.score)}` }}> - {item.displayValue}</span>
+                </p>
             </div>
             <div className="audit-item__right">
                 <button onClick={() => setExpand(!expand)}> <HiMiniChevronDown /> </button>

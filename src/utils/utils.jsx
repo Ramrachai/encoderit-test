@@ -1,26 +1,16 @@
 import { FaCircle, FaSquare, FaRegCircle  } from "react-icons/fa";
 import { IoTriangle } from "react-icons/io5";
 
-
-
-
 export function parseText(text) {
-    // Use a regular expression to match the parts
     const regex = /([^[]*)\[([^\]]*)\]\(([^\)]*)\)/;
     const matches = text.match(regex);
-
     if (!matches) return {};
-
-    // Return object with separate parts
-
     let description = matches[1].trim()
     let link_text = matches[2]
     let link_url = matches[3]
-
     let result = `${description} <a href="${link_url}"> ${link_text}</a>`
     return { __html: result };
 }
-
 
 export function getIcon(score) {
     score = score * 100
@@ -35,7 +25,6 @@ export function getIcon(score) {
     }
 }
 
-// Function to get color based on score
 export function getColor(score) {
     score = score * 100
     if (score >= 90) {
